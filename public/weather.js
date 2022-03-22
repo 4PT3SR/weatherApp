@@ -14,16 +14,16 @@
     <div class='loader'>
     <img src='Loader.gif'>
     </div>`
+    
      getWeather(form.location.value)
      .then((data) => {
          if(data.error) {
-          return  section.innerHTML =`
-        <div class='error>
-        <img src=''>
-        <p>${data.error}</p>
-        </div>
-     `
+            section.innerHTML =`
+            <p class='error'>${data.error}</p>`
+          return  console.log(data.error);
          }
+
+
          section.innerHTML = `        
          
          

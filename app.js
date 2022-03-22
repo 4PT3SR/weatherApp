@@ -45,7 +45,6 @@ app.get("/weather", (req,res) => {
                 });
         })
 
-    console.log(req.query.search)
 })
 
 

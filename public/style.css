@@ -103,7 +103,12 @@ section {
     opacity: 0;
 }
 
-
+.error {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-content: center;
+}
 @media screen and (max-width:768px) {
      form {
         flex-direction: column;
