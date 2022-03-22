@@ -7,7 +7,8 @@ const getWeather = require('./getweather.js');
 // Paths
 let publicPath = path.join(__dirname, './public');
 let partialPath = path.join(__dirname, './template/partials');
-let viewPath = path.join(__dirname, './template/views')
+let viewPath = path.join(__dirname, './template/views');
+let port = process.env.PORT || 5000;
 
 // ---------------------
 const app = express();
@@ -53,6 +54,6 @@ app.get("*", (req,res) => {
 })
 
 
-app.listen(3000, () => {
+app.listen(port, () => {
     console.log('Listening at port 3000 . . .')
 })
