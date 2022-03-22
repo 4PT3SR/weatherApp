@@ -35,7 +35,7 @@
      </div>
  
      <div class="temperature">
-         <h1>${data.temp}&#176</h1>
+         <h1>${data.temp}&#176C</h1>
      </div>`;
      })
      .catch(err => console.log(err) );
