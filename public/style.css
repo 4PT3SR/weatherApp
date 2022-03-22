@@ -9,7 +9,6 @@
 form {
     width: 80%;
     height: max-content;
-    /* text-align: center; */
     margin: .5rem auto;
     display: flex;
     gap: 1rem;
@@ -43,6 +42,7 @@ section {
     width: 100%;
     /* height: 91%; */
     /* background-color: purple  ; */
+    text-align: center;
     flex-grow: 2;
     background-color: #e9ecf05b;
     border-radius: 10px;
